@@ -1,0 +1,145 @@
+.container{
+    width: 300px;
+    margin: auto;
+}
+
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.imglogo{
+    width: 550px;
+    height: 170px;
+    margin: 10px;
+}
+
+.header{
+    height: auto;
+    background-color: lightseagreen;
+
+}
+
+.div-h1{
+    font-size: 20px;
+    display: inline;
+    margin: 110px 0px 0px 10px;
+    position:absolute;
+}
+
+ul li{
+    list-style: none;
+    padding: 16px;
+    float: left;
+}
+
+ul li:hover{
+    background-color: cyan;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav{
+    width: 100%;
+    background-color: #007bf7;
+    height: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.search{
+    position: absolute;
+    right: 3%;
+    background-color: black;
+    color: red;
+    border-radius: 20%;
+    outline: none;
+    top: 25%;
+}
+
+.search-box{
+    position: absolute;
+    right: 8%;
+    background-color: rgb(0, 225, 255);
+    outline: none;
+    top: 13px;
+    border-radius: 10px;
+}
+
+body{
+    background-image: url(image/image.jpg);
+    background-size: cover;
+}
+.div-teacher{
+    background-color: tomato;
+    width: 100%;
+    margin-top: 12px;
+    height: 220px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.img-teacher{
+    height: 165px;
+    position: absolute;
+    left: 6%;
+    top: 17%;
+}
+
+.teachers{
+    font-size: 72px;
+    position: absolute;
+    left: 23%;
+    top: 9%;
+}
+
+.teachers:hover{
+    color: rgb(0, 4, 255);
+}
+
+.profile{
+    background-color: green;
+    display: inline-block;
+    width: 85%;
+    height: 450px;
+    margin-top: 13px;
+    position: relative;
+    border-radius: 15px;
+    margin-left:  30px;;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.profile-img{
+    position: absolute;
+    left: 5%;
+    top: 19%;
+}
+
+.nzm-mt{
+    display: inline-block;
+    position: absolute;
+    height: 500px;
+    width: 720px;
+    right: 20%;
+    bottom: -5rem;
+    
+    
+
+}
+.name{
+    font-size: 20px;
+    position: absolute;
+    left: 7%;
+    top: 7%;
+}
+
